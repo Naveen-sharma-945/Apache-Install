@@ -44,7 +44,6 @@ sudo vi index.html
 - Write your own code.
 - After writing all code , Press Ctrl+C and then write ":wq" and Press Enter.
 
-```
 
 #![EC2 Instance](![first image](![apahe install](https://github.com/user-attachments/assets/f0b33ae2-e482-4a7e-bb9d-39f5591a8dc7)
 )
