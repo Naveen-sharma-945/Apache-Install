@@ -17,12 +17,15 @@
 ### 2. Connect to EC2 (using PuTTY/SSH)  
 - Download Putty.exe file and install it in your device.
 - Go to connection.
-- Go to SSH
+- then you have to Go to SSH
 - Go to Auth
 - Choose key pair file you made while creating instance.
 ```bash
 login as username: ubuntu
 ```
+![EC2 Instance](![first image](![Image 1 login as ubuntu](https://github.com/user-attachments/assets/e2803c4d-d826-4ada-8d7b-69574d5552ed)
+)
+)
 
 ### 3. Install Apache  
 ```bash
@@ -41,32 +44,13 @@ sudo vi index.html
 - Write your own code.
 - After writing all code , Press Ctrl+C and then write ":wq" and Press Enter.
 
-### 5. Map Domain with Route 53  
-- Register your own domain name.
-- Go to Route 53 on AWS, Click on Hosted Zones.
-## Route 53 Hosted Zone
-![Route 53 Hosted Zone](cloudimages/route53hostedzone.png)
-- You will get four NS name server.
-## NS Name Servers
-  ![NS Name servers](cloudimages/nsserver.png)
-- Then update these name server in your domain.
-## Domain Name adding Name server
-![Nameservereditedondomain](cloudimages/registereddomain.png)
-- Create **A record**
-- Set your domain, Enter your allotted Public IP and then Map it.
-## Website before SSL certfication (Showing Not Secure)
-![Webiste before SSL certification](cloudimages/websitebeforesslcertification.png)
-
-### 6. Enable SSL (HTTPS) using Certbot  
-```bash
-sudo apt update
-sudo apt install certbot python3-certbot-apache -y
-sudo certbot --apache
 ```
-- Then it will ask an email.
-- Then it will ask your domain name , So just write it.
-- Then SSL certification will deployed to your domain name.
-  Check in browser → `https://yourpublicip`
+![EC2 Instance](![first image](![apahe install](https://github.com/user-attachments/assets/f0b33ae2-e482-4a7e-bb9d-39f5591a8dc7)
+)
 
-## Website after SSL certfication using https (Showing Connection is Secure)
-![Webiste ater SSL certification](cloudimages/securedsite.png)
+###HTml code is inserted
+- ![this is my webpage](![entering html codde for the file](https://github.com/user-attachments/assets/e110993c-b8fb-47d1-87d9-509f3ff4eaf7))
+
+### 4 This is my web page
+![EC2 Instance](![first image](![this is my webpage](https://github.com/user-attachments/assets/01b91997-eab6-4cd2-9f3e-010ee9196bb1)
+)
