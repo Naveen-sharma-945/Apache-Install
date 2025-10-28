@@ -45,12 +45,13 @@ sudo vi index.html
 - After writing all code , Press Ctrl+C and then write ":wq" and Press Enter.
 
 ```
-![EC2 Instance](![first image](![apahe install](https://github.com/user-attachments/assets/f0b33ae2-e482-4a7e-bb9d-39f5591a8dc7)
+
+#![EC2 Instance](![first image](![apahe install](https://github.com/user-attachments/assets/f0b33ae2-e482-4a7e-bb9d-39f5591a8dc7)
 )
 
 ###HTml code is inserted
-- ![this is my webpage](![entering html codde for the file](https://github.com/user-attachments/assets/e110993c-b8fb-47d1-87d9-509f3ff4eaf7))
+-# ![this is my webpage](![entering html codde for the file](https://github.com/user-attachments/assets/e110993c-b8fb-47d1-87d9-509f3ff4eaf7))
 
 ### 4 This is my web page
-![EC2 Instance](![first image](![this is my webpage](https://github.com/user-attachments/assets/01b91997-eab6-4cd2-9f3e-010ee9196bb1)
+#![EC2 Instance](![first image](![this is my webpage](https://github.com/user-attachments/assets/01b91997-eab6-4cd2-9f3e-010ee9196bb1)
 )
