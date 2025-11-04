@@ -10,7 +10,7 @@
 - Allow **HTTP (80)**, **HTTPS (443)**, and **SSH (22)**  
 - Launch instance
 ## Launched EC2 Instance
-![EC2 Instance](![first image](https://github.com/user-attachments/assets/de344547-2ec4-4590-b897-c6870bf89837)
+(![EC2 Instance](![first image](https://github.com/user-attachments/assets/de344547-2ec4-4590-b897-c6870bf89837)
 )
 
 
