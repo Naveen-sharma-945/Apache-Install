@@ -36,8 +36,8 @@ FRP is a fast reverse proxy to help you expose a local server behind a NAT or fi
         - Custom TCP (7000) - 0.0.0.0/0 (FRP bind port)
         - Custom TCP (8080) - 0.0.0.0/0 (Web traffic port)
         - HTTP (80) - 0.0.0.0/0 (optional)
-![](<img width="1919" height="1034" alt="FRP IMAGE 1" src="https://github.com/user-attachments/assets/0c054c22-fddb-4929-8de7-d03c1f4a2154" />
-)
+<img width="1919" height="1034" alt="FRP IMAGE 1" src="https://github.com/user-attachments/assets/bf41de32-23cf-4ed0-a670-baacc68f7bd2" />
+
 ## Step 2 - Connect to your EC2 instance
 use Putty
 ![install k3s](https://github.com/user-attachments/assets/c9981a67-e4ae-426c-9d50-e361153f7dbd)
@@ -54,8 +54,8 @@ wget https://github.com/fatedier/frp/releases/download/v0.52.3/frp_0.52.3_linux_
 tar -xzf frp_0.52.3_linux_amd64.tar.gz
 cd frp_0.52.3_linux_amd64
 ```
-![first image](<img width="1571" height="348" alt="FRP IMAGE 2" src="https://github.com/user-attachments/assets/62375a73-8a51-4d73-a153-3e2533c926c7" />
-)
+<img width="1571" height="348" alt="FRP IMAGE 2" src="https://github.com/user-attachments/assets/3f559953-1b10-4bbc-8c72-7e1a0cd4ec3f" />
+
 ## Step 4 - Configure FRP server
 Create a server configuration file:
 ```bash 
@@ -75,6 +75,8 @@ webServer.password = "admin123"
 
 # Authentication token (CHANGE THIS!)
 auth.token = "eth4"
+![Checking if instlled or not](https://github.com/user-attachments/assets/0091ff05-fd72-4e1f-b9fb-fbeeaa718299)
+
 ```
 ## Step5 - Run the FRP server:
 ```bash
@@ -107,7 +109,7 @@ sudo systemctl enable frps
 sudo systemctl start frps
 sudo systemctl status frps
 ```
-![](resources/Screenshot%202025-10-03%20155839.png)
+
 
 FRP server is now set up and running.
 
@@ -121,6 +123,8 @@ tar -zxvf frp_0.61.1_linux_amd64.tar.gz
 sudo mv frp_0.61.1_linux_amd64 /usr/local/frp
 cd /usr/local/frp
 ```
+<img width="1010" height="429" alt="systemrunning sd" src="https://github.com/user-attachments/assets/e6210dec-00d2-44ab-8710-81dea7a13320" />
+
 ## Step 2 - Setting up a web server 
 ```bash
 sudo apt update 
@@ -164,7 +168,8 @@ Press `esc` and `:wq` to save and exit.
 ```bash
 sudo /usr/local/frp/frpc -c /usr/local/frp/frpc.toml
 ``` 
-![](resources/Screenshot%202025-10-03%20162054.png)
+<img width="1000" height="612" alt="image" src="https://github.com/user-attachments/assets/20ea6d08-39f7-4e04-afed-67cb35dd6a25" />
+
 # Access your website
 Open a web browser and navigate to `http://<EC2-Public-IP>:8080`. You should see your simple website.
 ![](resources/Screenshot%202025-10-03%20162155.png)
