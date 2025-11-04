@@ -36,9 +36,12 @@ FRP is a fast reverse proxy to help you expose a local server behind a NAT or fi
         - Custom TCP (7000) - 0.0.0.0/0 (FRP bind port)
         - Custom TCP (8080) - 0.0.0.0/0 (Web traffic port)
         - HTTP (80) - 0.0.0.0/0 (optional)
-![](resources/Screenshot%202025-10-03%20145844.png)
+![](<img width="1919" height="1034" alt="FRP IMAGE 1" src="https://github.com/user-attachments/assets/0c054c22-fddb-4929-8de7-d03c1f4a2154" />
+)
 ## Step 2 - Connect to your EC2 instance
 use Putty
+![install k3s](https://github.com/user-attachments/assets/c9981a67-e4ae-426c-9d50-e361153f7dbd)
+
 ## Step 3 - Install FRP server
 ```bash
 # Update system
@@ -51,6 +54,8 @@ wget https://github.com/fatedier/frp/releases/download/v0.52.3/frp_0.52.3_linux_
 tar -xzf frp_0.52.3_linux_amd64.tar.gz
 cd frp_0.52.3_linux_amd64
 ```
+![first image](<img width="1571" height="348" alt="FRP IMAGE 2" src="https://github.com/user-attachments/assets/62375a73-8a51-4d73-a153-3e2533c926c7" />
+)
 ## Step 4 - Configure FRP server
 Create a server configuration file:
 ```bash 
