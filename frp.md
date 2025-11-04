@@ -75,9 +75,10 @@ webServer.password = "admin123"
 
 # Authentication token (CHANGE THIS!)
 auth.token = "eth4"
-![Checking if instlled or not](https://github.com/user-attachments/assets/0091ff05-fd72-4e1f-b9fb-fbeeaa718299)
 
 ```
+![Checking if instlled or not](https://github.com/user-attachments/assets/0091ff05-fd72-4e1f-b9fb-fbeeaa718299)
+
 ## Step5 - Run the FRP server:
 ```bash
 ./frps -c frps.toml
