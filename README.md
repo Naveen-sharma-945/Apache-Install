@@ -23,7 +23,7 @@ EC2 Instance![first image](https://github.com/user-attachments/assets/de344547-2
 ```bash
 login as username: ubuntu
 ```
-![EC2 Instance](![first image](![Image 1 login as ubuntu](https://github.com/user-attachments/assets/e2803c4d-d826-4ada-8d7b-69574d5552ed)
+logined as ubuntu [first image](![Image 1 login as ubuntu](https://github.com/user-attachments/assets/e2803c4d-d826-4ada-8d7b-69574d5552ed)
 )
 )
 
@@ -49,8 +49,8 @@ sudo vi index.html
 )
 
 ###HTml code is inserted
--# ![this is my webpage](![entering html codde for the file](https://github.com/user-attachments/assets/e110993c-b8fb-47d1-87d9-509f3ff4eaf7))
+preview(![entering html codde for the file](https://github.com/user-attachments/assets/e110993c-b8fb-47d1-87d9-509f3ff4eaf7))
 
 ### 4 This is my web page
-#(![first image](![this is my webpage](https://github.com/user-attachments/assets/01b91997-eab6-4cd2-9f3e-010ee9196bb1)
+this is my webpage(![this is my webpage](https://github.com/user-attachments/assets/01b91997-eab6-4cd2-9f3e-010ee9196bb1)
 )
